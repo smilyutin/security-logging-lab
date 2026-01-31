@@ -1,3 +1,23 @@
+## Overview
+Security logging lab using PostgreSQL, Docker, and anomaly-detection SQL.
+
+## Architecture
+- PostgreSQL 16
+- pgAdmin
+- Docker Compose
+
+## Database Schema
+- users
+- auth_events
+- api_requests
+- audit_log
+
+## Anomaly Detection
+Queries located in `/queries/anomaly_detection.sql`
+
+## Usage
+docker compose up -d
+
 # Security Checks Query Pack (What each query detects)
 
 This folder contains `security_checks.sql`, a practical set of PostgreSQL queries used for security logging databases.
