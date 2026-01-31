@@ -1,5 +1,4 @@
 # Security Logging Lab (PostgreSQL + Docker)
-
 A small, realistic security logging database you can run locally on any Mac (or Linux/Windows) using Docker.
 Includes:
 - PostgreSQL schema (users, auth_events, api_requests, audit_log)
